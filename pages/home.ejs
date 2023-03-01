@@ -1,0 +1,9 @@
+<h1><%= title %></h1>
+<div class="card" style="width: 18rem;">
+    <% for(var i=0; i<pokemon.length; i++) {%>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item"><%= pokemon[i].name %> : <%= pokemon[i].order %></li>
+        </ul>
+        <% }
+    %>
+</div>
